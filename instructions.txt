@@ -1,0 +1,40 @@
+Create virtual environment for project
+1) Start by installing pipenv using the following command via pip
+       > pip install pipenv
+2) Create the project directory and initiate the project by running the following command
+       > mkdir project_dir && cd project_dir && pipenv install --three
+3) Activate the virtual environment
+       > pipenv shell
+
+Installing required libraries and dependencies:
+To install each of the following python libraries, execute the following commands.
+1) PyTesseract
+       > pipenv install pytesseract
+2) Pillow
+       > pipenv install Pillow
+3) OpenCV
+       > pipenv install opencv-python
+4) Googletrans
+       > pipenv install googletrans
+5) Langdetect
+       > pipenv install langdetect
+6) Flask
+       > pipenv install Flask
+
+To run the project, follow the steps mentioned below.
+1) Run command prompt and navigate to the project directory.
+       > cd <project-dir>
+2) Activate the existing virtual environment by executing following commands in cmd:
+       > virtualenv <env-name>
+       > <env-name>\Scripts\activate
+3) Run the Flask app file by executing the following command:
+       > python <flask-app-name.py>
+       Eg: > python app.py
+   This starts the server for the web application. By default, the flask app runs a local server at port 5000.
+4) Open a web browser and browse to the url 'http://127.0.0.1:5000/' or 'localhost:5000' to open the web-page.
+
+To activate an existing virtualenv execute following commands in cmd:
+    > cd <project-name>
+    > virtualenv <env-name>
+    > <env-name>\Scripts\activate
+
