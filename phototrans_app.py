@@ -27,7 +27,11 @@ app =  Flask(__name__)
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
-@app.route('/', methods = ['GET', 'POST'])
+@app.route('/')
+def home_page():
+    return render_template('index.html')
+
+@app.route('/upload.html', methods = ['GET', 'POST'])
 def upload_page():
     if request.method == 'POST':
         # check if there is a file in the request
@@ -42,7 +46,7 @@ def upload_page():
             # call the OCR function on it
             extracted_text = photo_translate(file)
             # extract the text and display it
-            return render_template('upload.html', msg = 'Successfully processed', extracted_text = extracted_text, img_src = UPLOAD_FOLDER + file.filename)
+            return render_template('upload.html', msg = 'SUCCESSFULLY PROCESSED', extracted_text = extracted_text, img_src = UPLOAD_FOLDER + file.filename)
     elif request.method == 'GET':
         return render_template('upload.html')
 
