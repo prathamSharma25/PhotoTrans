@@ -1,7 +1,7 @@
 # PhotoTrans
 A Flask web application to extract text from uploaded images and translate it. 
 
-This web application is designed as a tool to extract text from images and translate it into the English languge.
+This web application is designed as a tool to extract text from images and translate it into the English language.
 It is designed as a Flask application and makes use of the following libraries:
   1) PyTesseract - a python wrapper for Google's Tesseract-OCR Engine. It is an Optical Character Recognition tool for python. It is used        to extract text from uploaded images.
   2) Googletrans - a free and unlimited python library that implements Google Translate API. This is used to translate the extracted text 
