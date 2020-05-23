@@ -8,6 +8,7 @@ It is designed as a Flask application and makes use of the following libraries:
      to English.
   3) OpenCV-Python - wrapper package for OpenCV python bindings. It is used to perform pre-processing functions such as grayscaling and          thresholding on uploaded images for better OCR performance.
   4) Pillow - Python Imaging Library. It provides support for opening, manipulating and saving many different image file formats.
+  5) Flask - a lightweight WSGI web application framework for Python. It is used to design the web application for the project.
 
 The web application utilises essential python functions defined for the processing operations.
 Python scripts and their functionality are described bellow:
