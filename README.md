@@ -18,3 +18,5 @@ Python scripts and their functionality are described bellow:
   5) phototrans_app.py - Flask web application to provide user-interface to upload images and get result
   
 The web application is designed using simple HTML and HTML forms.
+
+It is recommended to implement the project in a python virtual environemt and install all required libraries and dependencies in the virtual environment. Find instructions to create virtual environment and install libraries in the 'virtualenv.txt' file.
