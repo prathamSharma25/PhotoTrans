@@ -23,3 +23,13 @@ Python scripts and their functionality are described bellow:
 The web application is designed using simple HTML, HTML forms and HTTP GET and POST methods.
 
 It is recommended to implement the project in a python virtual environemt and install all required libraries and dependencies in the virtual environment. Find instructions to create virtual environment, install libraries and execute the project in the 'instructions.txt' file (Windows only).
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Pratham Sharma
+
+Student at Vellore Institute of Technology, Vellore, Tamil Nadu, India
+
+Reach out to me: prathams2425@gmail.com
+
+LinkedIn profile: https://www.linkedin.com/in/pratham-sharma-620418178/
