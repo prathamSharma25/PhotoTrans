@@ -1,7 +1,6 @@
 # PhotoTrans
 
-## :warning: IMPORTANT
-### This project needs improvement. Head over to the Issues tab to contribute and improve PhotoTrans
+## :warning: IMPORTANT This project needs improvement. Head over to the Issues tab to contribute and improve PhotoTrans
 
 PhotoTrans - A PYTHON PHOTO TRANSLATOR
 
