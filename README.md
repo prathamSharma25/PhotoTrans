@@ -3,6 +3,7 @@
 **:warning: IMPORTANT :warning:**
 This project needs improvement. Head over to the Issues tab to contribute and improve PhotoTrans
 
+
 PhotoTrans - A PYTHON PHOTO TRANSLATOR
 
 This application is designed as a Flask web application to extract text from uploaded images and translate it. 
