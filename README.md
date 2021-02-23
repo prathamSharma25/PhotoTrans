@@ -2,7 +2,7 @@
 
 ---
 
-## :warning: IMPORTANT :warning:
+**:warning: IMPORTANT :warning:**
 This project needs improvement. Head over to the Issues tab to contribute and improve PhotoTrans
 
 ---
